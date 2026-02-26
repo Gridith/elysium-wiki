@@ -1,26 +1,24 @@
-import { PageLayout, SharedLayout, ComponentType, PageData } from "./quartz/cfg"
+import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-// Custom component: shows reading time only (no date)
-const ReadingTimeOnly: ComponentType = {
-  render: (pageData: PageData) => {
-    const time = pageData.fileData.readingTime
+// Reading time only component (v4-safe)
+const ReadingTimeOnly = Component.Raw({
+  render: (ctx) => {
+    const time = ctx.fileData.readingTime
     if (!time) return ""
-
-    // Match Quartz's default meta styling
     return `<div class="content-meta">${time} min read</div>`
   },
-}
+})
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [],
-  footer: Component.Footer(), // no external links
+  footer: Component.Footer(),
 }
 
-// components for pages that display a single note
+// single content pages
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
@@ -28,7 +26,7 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ArticleTitle(),
-    ReadingTimeOnly, // replaces ContentMeta()
+    ReadingTimeOnly, // replaces ContentMeta
     Component.TagList(),
   ],
   left: [
@@ -36,10 +34,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
+        { Component: Component.Search(), grow: true },
         { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
       ],
@@ -53,22 +48,19 @@ export const defaultContentPageLayout: PageLayout = {
   ],
 }
 
-// components for list pages (tags, folders)
+// list pages
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
-    ReadingTimeOnly, // also remove date here
+    ReadingTimeOnly,
   ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
+        { Component: Component.Search(), grow: true },
         { Component: Component.Darkmode() },
       ],
     }),
