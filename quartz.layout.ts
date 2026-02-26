@@ -17,7 +17,11 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ArticleTitle(),
-    Component.ContentMeta({ showDate: false }),
+    Component.ContentMeta({
+  render: (pageData) => {
+    return pageData.readingTime ? `${pageData.readingTime} min read` : ""
+  }
+}),
     Component.TagList(),
   ],
   left: [
