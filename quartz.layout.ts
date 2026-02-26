@@ -1,15 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-// Reading time only component (v4-safe)
-const ReadingTimeOnly = Component.Raw({
-  render: (ctx) => {
-    const time = ctx.fileData.readingTime
-    if (!time) return ""
-    return `<div class="content-meta">${time} min read</div>`
-  },
-})
-
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
@@ -18,7 +9,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer(),
 }
 
-// single content pages
+// components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
@@ -26,7 +17,6 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ArticleTitle(),
-    ReadingTimeOnly, // replaces ContentMeta
     Component.TagList(),
   ],
   left: [
@@ -34,7 +24,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        { Component: Component.Search(), grow: true },
+        {
+          Component: Component.Search(),
+          grow: true,
+        },
         { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
       ],
@@ -48,19 +41,18 @@ export const defaultContentPageLayout: PageLayout = {
   ],
 }
 
-// list pages
+// components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [
-    Component.Breadcrumbs(),
-    Component.ArticleTitle(),
-    ReadingTimeOnly,
-  ],
+  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        { Component: Component.Search(), grow: true },
+        {
+          Component: Component.Search(),
+          grow: true,
+        },
         { Component: Component.Darkmode() },
       ],
     }),
