@@ -1,6 +1,4 @@
 ---
-title: Elysium Player Wiki
+title: Welcome, voyager
 ---
-**Elysium** is a is a sword-and-sorcery science fantasy realm of floating islands suspended above an endless, cloudlike pale expanse known as the [[Ivory Sea]]. 
-
-Its merchants sail skyships connecting massive cities such as the chained islands making up the [[Black Iron Clasp]] to even the smallest homesteads drifting on a [[shard]] of land. Among the nobility, protective enchanted jewelry is as common as armor and most would employ a wizard or arcanist on their payroll.
+**Elysium** is a is a sword-and-sorcery science-fantasy world of floating islands adrift over the endless [[Ivory Sea]]. Skyships, beasts, and more soar the skies between industrialized cities, drifting frontier shards, and ancient ruins hiding lost arcana, glittering hoards, and deadly consciences.
