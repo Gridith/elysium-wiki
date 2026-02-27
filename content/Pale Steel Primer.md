@@ -2,4 +2,6 @@
 title: Pale Steel Primer
 draft: "false"
 ---
-![[Pale Steel Header.png]]
+<center><img src="assets/Pale Steel Header.png"></center>
+
+test
