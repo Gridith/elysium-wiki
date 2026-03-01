@@ -5,9 +5,9 @@ a.internal,
 a.tag-link,
 a[data-href] {
   background-color: transparent;
-  transition: background-color 0.2s ease;
+  transition: box-shadow 0.2s ease;
   border-radius: 6px;
-  padding: 0px;
+  padding: 0;
   color: #9FC9D4;
 }
 
@@ -15,5 +15,5 @@ a[data-href] {
 a.internal:hover,
 a.tag-link:hover,
 a[data-href]:hover {
-  background-color: rgba(141, 230, 252, 0.15);
+  box-shadow: 0 0 0 4px rgba(141, 230, 252, 0.15);
 }
