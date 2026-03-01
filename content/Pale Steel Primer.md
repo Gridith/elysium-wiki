@@ -3,7 +3,7 @@ title: Pale Steel
 draft: "false"
 ---
 # Welcome to [[Elysian Glossary#Elysium|Elysium]], [[Elysian Glossary#Voyager of Fortune|voyager]]!
-**[[Elysian Glossary#Elysium|Elysium]]** is a sword-and-sorcery science-fantasy world of floating islands adrift over the endless [[Elysian Glossary#Ivory Sea|Ivory Sea]]. In [[Elysian Glossary#Elysium|Elysium]], skyships and beasts soar the skies between prospering industrialized cities of faction politics and nobility, frontier [[Elysian Glossary#Shard|shards]] that can seem to appear overnight from the pale itself, and ancient ruins coveting lost [[Elysian Glossary#Arcana|Arcana]], glittering hoards, and lethal consequences.
+**[[Elysian Glossary#Elysium|Elysium]]** is a sword-and-sorcery science-fantasy world of floating islands adrift over the endless [[Elysian Glossary#Ivory Sea|Ivory Sea]]. In [[Elysian Glossary#Elysium|Elysium]], skysails and beasts soar through clouds between the prospering industrialized cities of faction politics and nobility, frontier [[Elysian Glossary#Shard|shards]] that can seem to appear overnight from the pale itself, and ancient ruins coveting lost [[Elysian Glossary#Arcana|Arcana]], glittering hoards, and lethal consequences.
 > [!question] Why a site?
 > Because [[Elysian Glossary#Elysium|Elysium]] is an entirely homebrewed setting it can be easy to make an incorrect assumption about the setting, after all, how would you even be able to know better if I haven't explicitly told you? That is why I'm putting together this site as a touchstone of player facing information for easy access!
 > 
