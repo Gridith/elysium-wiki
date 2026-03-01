@@ -1,3 +1,21 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+a.internal,
+a.tag-link,
+a[data-href] {
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+}
+
+a.internal,
+a.tag-link,
+a[data-href] {
+  color: #8DE6FC !important;
+}
+
+a.internal:hover,
+a.tag-link:hover,
+a[data-href]:hover {
+  text-decoration: underline;
+}
