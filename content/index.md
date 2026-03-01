@@ -23,5 +23,19 @@ As the story develops, your stories will continue to intertwine more and more. A
 ## Player Agency
 Unlike most published adventures where a string of events or scenes the DM or writer expects to happen has been plotted out beforehand, I'm writing Pale Steel to be a set of circumstances.[^1] 
 This doesn't mean there won't be a "main story", for lack of a better term. Instead, our main story will emerge from your interactions (or lack thereof) with the different pieces and players in the world.
+## The First Sessions
+We'll be starting off with two different types of session, [[Appendix|Appendices]] and [[Prologue|Prologues]].
+We'll be using the [[Appendix|appendix]] sessions before and during the campaign to expand on smaller, often personal, elements of the story. Everyone is going to be playing through a part of their backstory as part of the opening [[Appendix|appendices]].
+The [[Prologue|prologue]] sessions will be scheduled by me to serve a structured intro before the training wheels are removed and the full sandbox opens up, where each of you are paired off and started on the first legs of your journey.
+
+***
+# Closing Remarks
+Before we kick thing off, though, I want to share one small but important request.
+
+I care a great deal about this campaign. I’ve put real time and energy into building it, and I’m excited to explore it together. Because of that, I’d love for us to treat this game the way we would any meaningful hobby; like a sports club, rehearsal, or team project. Something we show up for intentionally.
+
+That means bringing our focus to the table, staying engaged during sessions, and maintaining space for it in our schedules when we can. At the end of the day, I want this campaign to feel like something we’re building together. The more we invest in it, the more we’ll get out of it. 
+
+If for any reason you think this campaign isn't for you, we did after all start on it *months ago*, then you can reach out to me in private so we can work out what works best for us all!
 
 [^1]: For a deeper explanation, see [the Alexandrian's Don't Prep Plots, Prep Situations](https://thealexandrian.net/wordpress/4147/roleplaying-games/dont-prep-plots).
