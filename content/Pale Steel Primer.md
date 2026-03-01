@@ -2,18 +2,17 @@
 title: Pale Steel
 draft: "false"
 ---
-# Welcome to [[Glossary#Elysium|Elysium]], [[Glossary#Voyager of Fortune|voyager]]!
-**[[Glossary#Elysium|Elysium]]** is a sword-and-sorcery science-fantasy world of floating islands adrift over the endless [[Glossary#Ivory Sea|Ivory Sea]]. In [[Glossary#Elysium|Elysium]], skysails and beasts soar through clouds between the prospering industrialized cities of faction politics and nobility, frontier [[Glossary#Shard|shards]] that can seem to appear overnight from the pale itself, and ancient ruins coveting lost [[Glossary#Arcana|Arcana]], glittering hoards, and lethal consequences.
+**[[Elysium]]** is a sword-and-sorcery science-fantasy world of floating islands adrift over the endless [[Ivory Sea]]. In [[Elysium]], skysails and beasts soar through clouds between the prospering industrialized cities of faction politics and nobility, frontier [[Shard|shards]] that can seem to appear overnight from the pale itself, and ancient ruins coveting lost [[Arcana]], glittering hoards, and lethal consequences.
 > [!question] Why a site?
-> Because [[Glossary#Elysium|Elysium]] is an entirely homebrewed setting it can be easy to make an incorrect assumption about the setting, after all, how would you even be able to know better if I haven't explicitly told you? That is why I'm putting together this site as a touchstone of player facing information for easy access!
+> Because [[Elysium]] is an entirely homebrewed setting it can be easy to make an incorrect assumption about the setting, after all, how would you even be able to know better if I haven't explicitly told you? That is why I'm putting together this site as a touchstone of player facing information for easy access!
 > 
-> Most of the proper and common nouns I've coined can be hovered over to see their definition in the [[Glossary]], and over time more pages will be added.
+> Most of the proper and common nouns I've coined can be hovered over to see their definition in the [Glossary](https://gridith.github.io/elysium-wiki/Elysian-Glossary/), and over time more pages will be added.
 
 ***
 ![[Pale Steel Header.png]]
-*Fate brings together six disparate souls within the golden city of [[Glossary#Eldrathen's Crest|Eldrathen's Crest]], built atop sprawling, immutable ruins that gleam with a dull golden hue.* 
+*Fate brings together six disparate souls within the golden city of [[Eldrathen's Crest]], built atop sprawling, immutable ruins that gleam with a dull golden hue.* 
 
-*Its people hum with lively preparations for it's centennial celebrations; the parks and public spaces in Hearthwright are adorned with iconic gilded roses, while the businesses in the Golden Exchange toil to fulfill the rapidly approaching deadline.* 
+*Its people hum with lively preparations for it's centennial celebrations; the parks and public spaces in [[Hearthwright]] are adorned with iconic [[Gilded Roses]], while the businesses in the [[Golden Exchange]] toil to fulfill the rapidly approaching deadline.* 
 # Campaign Structure
 We're playing **Pale Steel** for two reasons; one is to learn and play Draw Steel, and the other is to play a game that can form around everyone's idiosyncratic schedules. This is why Pale Steel will be a ***Multi-Table Shared World Campaign***.
 ## Splitting the Table

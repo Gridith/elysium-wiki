@@ -1,2 +1,2 @@
-The residential district of [[Glossary#Eldrathen's Crest|Eldrathen's Crest]].
+The residential district of [[Eldrathen's Crest]].
 	*Also knows as the Cradle*
