@@ -1,1 +1,4 @@
+---
+draft: "false"
+---
 A mysterious pale dull-gold immutable material found in old ruins.
