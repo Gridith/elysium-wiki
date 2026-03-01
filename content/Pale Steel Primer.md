@@ -21,5 +21,7 @@ At the start of the campaign some of you may already know some of the other play
 
 As the story develops, your stories will continue to intertwine more and more. At which point it will be up to you to decide what people your characters brings along on their quests, or what quests your character would seek to join.
 ## Player Agency
-Unlike most published adventures where a string of events or scenes the DM or writer expects to happen has been plotted out beforehand, I'm writing Pale Steel to be a set of circumstances.^[For a deeper explaination, see [the Alexandrian's Don't Prep Plots, Prep Situations](https://thealexandrian.net/wordpress/4147/roleplaying-games/dont-prep-plots).] 
+Unlike most published adventures where a string of events or scenes the DM or writer expects to happen has been plotted out beforehand, I'm writing Pale Steel to be a set of circumstances.[^1] 
 This doesn't mean there won't be a "main story", for lack of a better term. Instead, our main story will emerge from your interactions (or lack thereof) with the different pieces and players in the world.
+
+[^1]: For a deeper explaination, see [the Alexandrian's Don't Prep Plots, Prep Situations](https://thealexandrian.net/wordpress/4147/roleplaying-games/dont-prep-plots).
