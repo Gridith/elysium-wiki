@@ -2,16 +2,16 @@
 title: Pale Steel
 draft: "false"
 ---
-# Welcome to [[Elysian Glossary#Elysium|Elysium]], [[Elysian Glossary#Voyager of Fortune|voyager]]!
-**[[Elysian Glossary#Elysium|Elysium]]** is a sword-and-sorcery science-fantasy world of floating islands adrift over the endless [[Elysian Glossary#Ivory Sea|Ivory Sea]]. In [[Elysian Glossary#Elysium|Elysium]], skysails and beasts soar through clouds between the prospering industrialized cities of faction politics and nobility, frontier [[Elysian Glossary#Shard|shards]] that can seem to appear overnight from the pale itself, and ancient ruins coveting lost [[Elysian Glossary#Arcana|Arcana]], glittering hoards, and lethal consequences.
+# Welcome to [[_Elysian Glossary#Elysium|Elysium]], [[_Elysian Glossary#Voyager of Fortune|voyager]]!
+**[[_Elysian Glossary#Elysium|Elysium]]** is a sword-and-sorcery science-fantasy world of floating islands adrift over the endless [[_Elysian Glossary#Ivory Sea|Ivory Sea]]. In [[_Elysian Glossary#Elysium|Elysium]], skysails and beasts soar through clouds between the prospering industrialized cities of faction politics and nobility, frontier [[_Elysian Glossary#Shard|shards]] that can seem to appear overnight from the pale itself, and ancient ruins coveting lost [[_Elysian Glossary#Arcana|Arcana]], glittering hoards, and lethal consequences.
 > [!question] Why a site?
-> Because [[Elysian Glossary#Elysium|Elysium]] is an entirely homebrewed setting it can be easy to make an incorrect assumption about the setting, after all, how would you even be able to know better if I haven't explicitly told you? That is why I'm putting together this site as a touchstone of player facing information for easy access!
+> Because [[_Elysian Glossary#Elysium|Elysium]] is an entirely homebrewed setting it can be easy to make an incorrect assumption about the setting, after all, how would you even be able to know better if I haven't explicitly told you? That is why I'm putting together this site as a touchstone of player facing information for easy access!
 > 
-> Most of the proper and common nouns I've coined can be hovered over to see their definition in the [[Elysian Glossary]], and over time more pages will be added.
+> Most of the proper and common nouns I've coined can be hovered over to see their definition in the [[_Elysian Glossary]], and over time more pages will be added.
 
 ***
 ![[Pale Steel Header.png]]
-*Fate brings together six disparate souls within the golden city of [[Elysian Glossary#Eldrathen's Crest|Eldrathen's Crest]], built atop sprawling, immutable ruins that gleam with a dull golden hue.* 
+*Fate brings together six disparate souls within the golden city of [[_Elysian Glossary#Eldrathen's Crest|Eldrathen's Crest]], built atop sprawling, immutable ruins that gleam with a dull golden hue.* 
 
 *Its people hum with lively preparations for it's centennial celebrations; the parks and public spaces in Hearthwright are adorned with iconic gilded roses, while the businesses in the Golden Exchange toil to fulfill the rapidly approaching deadline.* 
 # Campaign Structure
