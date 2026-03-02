@@ -59,15 +59,7 @@ type Props = {
 
 export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort }: Props) => {
   const sorter = sort ?? byDateAndAlphabeticalFolderFirst(cfg)
-  let list = allFiles
-	  .filter((page) => {
-		if (!page.slug) return false
-		const current = fileData.slug!
-		const slug = page.slug
-		const isChild = slug.startsWith(current + "/")
-		return isChild
-	  })
-	  .sort(sorter)
+  let list = allFiles.sort(sorter)
   if (limit) {
     list = list.slice(0, limit)
   }
