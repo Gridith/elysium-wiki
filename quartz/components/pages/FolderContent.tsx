@@ -20,7 +20,7 @@ interface FolderContentOptions {
 }
 
 const defaultOptions: FolderContentOptions = {
-  showFolderCount: true,
+  showFolderCount: false,
   showSubfolders: true,
 }
 
@@ -38,42 +38,45 @@ export default ((opts?: Partial<FolderContentOptions>) => {
 
 	// Recursively collect all descendant pages
 	const collectPages = (node: typeof folder): QuartzPluginData[] => {
-	  let results: QuartzPluginData[] = []
+      let results: QuartzPluginData[] = []
 
-	  for (const child of node.children) {
-		// If it's a real file, include it
-		if (child.data) {
-		  results.push(child.data)
-		}
+      for (const child of node.children) {
+        if (child.data) {
+          results.push({
+            ...child.data,
+            dates: undefined,
+          })
+        }
 
-		if (child.isFolder) {
-		  // Add synthetic folder entry (so folder remains clickable)
-		  if (options.showSubfolders) {
-			results.push({
-			  slug: child.slug,
-			  dates: {
-				created: new Date(),
-				modified: new Date(),
-				published: new Date(),
-			  },
-			  frontmatter: {
-				title: child.displayName,
-				tags: [],
-			  },
-			} as QuartzPluginData)
-		  }
+        if (child.isFolder) {
+          if (options.showSubfolders) {
+            results.push({
+              slug: child.slug,
+              dates: undefined,
+              frontmatter: {
+                title: child.displayName,
+                tags: [],
+              },
+            } as QuartzPluginData)
+          }
 
-		  // Then recurse into it
-		  results = results.concat(collectPages(child))
-		}
-	  }
+          // recurse into subfolder
+          results = results.concat(collectPages(child))
+        }
+      }
 
 	  return results
 	}
 
-	const allPagesInFolder: QuartzPluginData[] = collectPages(folder)
+	let allPagesInFolder: QuartzPluginData[] = collectPages(folder)
+
+    // --- Sort recursively collected pages ---
+    const sorter = options.sort ?? byDateAndAlphabeticalFolderFirst(cfg)
+    allPagesInFolder = allPagesInFolder.sort(sorter)
+
     const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? []
     const classes = cssClasses.join(" ")
+
     const listProps = {
       ...props,
       sort: options.sort,
