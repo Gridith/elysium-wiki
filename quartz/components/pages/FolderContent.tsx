@@ -70,9 +70,9 @@ export default ((opts?: Partial<FolderContentOptions>) => {
 
 	let allPagesInFolder: QuartzPluginData[] = collectPages(folder)
 
-    // --- Sort recursively collected pages ---
-    const sorter = options.sort ?? byDateAndAlphabeticalFolderFirst(cfg)
-    allPagesInFolder = allPagesInFolder.sort(sorter)
+    if (options.sort) {
+		allPagesInFolder = allPagesInFolder.sort(options.sort)
+	}
 
     const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? []
     const classes = cssClasses.join(" ")
