@@ -38,32 +38,22 @@ export default ((opts?: Partial<FolderContentOptions>) => {
 
 	// Recursively collect all descendant pages
 	const collectPages = (node: typeof folder): QuartzPluginData[] => {
-      let results: QuartzPluginData[] = []
+	  let results: QuartzPluginData[] = []
 
-      for (const child of node.children) {
-        if (child.data) {
-          results.push({
-            ...child.data,
-            dates: undefined,
-          })
-        }
+	  for (const child of node.children) {
+		if (child.data) {
+		  // real note
+		  results.push({
+			...child.data,
+			dates: undefined, // remove dates
+		  })
+		}
 
-        if (child.isFolder) {
-          if (options.showSubfolders) {
-            results.push({
-              slug: child.slug,
-              dates: undefined,
-              frontmatter: {
-                title: child.displayName,
-                tags: [],
-              },
-            } as QuartzPluginData)
-          }
-
-          // recurse into subfolder
-          results = results.concat(collectPages(child))
-        }
-      }
+		if (child.isFolder) {
+		  // recurse into subfolder WITHOUT adding synthetic folder entry
+		  results = results.concat(collectPages(child))
+		}
+	  }
 
 	  return results
 	}
