@@ -7,7 +7,7 @@ draft: "false"
 > [!question] Why a site?
 > Because [[Elysium]] is an entirely homebrewed setting it can be easy to make an incorrect assumption about the setting, after all, how would you even be able to know better if I haven't explicitly told you? That is why I'm putting together this site as a touchstone of player facing information for easy access!
 > 
-> Most of the proper and common nouns I've coined can be hovered over to see their definition in the [Glossary](https://gridith.github.io/elysium-wiki/Elysian-Glossary/), and over time more pages will be added.
+> Most of the proper and common nouns I've coined can be hovered over to see their definition in the [[Elysian Glossary/]], and over time more pages will be added.
 
 ***
 ![[Pale Steel Header.png]]
