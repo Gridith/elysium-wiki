@@ -36,58 +36,42 @@ export default ((opts?: Partial<FolderContentOptions>) => {
       return null
     }
 
-    const allPagesInFolder: QuartzPluginData[] =
-      folder.children
-        .map((node) => {
-          // regular file, proceed
-          if (node.data) {
-            return node.data
-          }
+	// Recursively collect all descendant pages
+	const collectPages = (node: typeof folder): QuartzPluginData[] => {
+	  let results: QuartzPluginData[] = []
 
-          if (node.isFolder && options.showSubfolders) {
-            // folders that dont have data need synthetic files
-            const getMostRecentDates = (): QuartzPluginData["dates"] => {
-              let maybeDates: QuartzPluginData["dates"] | undefined = undefined
-              for (const child of node.children) {
-                if (child.data?.dates) {
-                  // compare all dates and assign to maybeDates if its more recent or its not set
-                  if (!maybeDates) {
-                    maybeDates = { ...child.data.dates }
-                  } else {
-                    if (child.data.dates.created > maybeDates.created) {
-                      maybeDates.created = child.data.dates.created
-                    }
+	  for (const child of node.children) {
+		// If it's a real file, include it
+		if (child.data) {
+		  results.push(child.data)
+		}
 
-                    if (child.data.dates.modified > maybeDates.modified) {
-                      maybeDates.modified = child.data.dates.modified
-                    }
+		if (child.isFolder) {
+		  // Add synthetic folder entry (so folder remains clickable)
+		  if (options.showSubfolders) {
+			results.push({
+			  slug: child.slug,
+			  dates: {
+				created: new Date(),
+				modified: new Date(),
+				published: new Date(),
+			  },
+			  frontmatter: {
+				title: child.displayName,
+				tags: [],
+			  },
+			} as QuartzPluginData)
+		  }
 
-                    if (child.data.dates.published > maybeDates.published) {
-                      maybeDates.published = child.data.dates.published
-                    }
-                  }
-                }
-              }
-              return (
-                maybeDates ?? {
-                  created: new Date(),
-                  modified: new Date(),
-                  published: new Date(),
-                }
-              )
-            }
+		  // Then recurse into it
+		  results = results.concat(collectPages(child))
+		}
+	  }
 
-            return {
-              slug: node.slug,
-              dates: getMostRecentDates(),
-              frontmatter: {
-                title: node.displayName,
-                tags: [],
-              },
-            }
-          }
-        })
-        .filter((page) => page !== undefined) ?? []
+	  return results
+	}
+
+	const allPagesInFolder: QuartzPluginData[] = collectPages(folder)
     const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? []
     const classes = cssClasses.join(" ")
     const listProps = {
