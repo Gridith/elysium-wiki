@@ -70,9 +70,11 @@ export default ((opts?: Partial<FolderContentOptions>) => {
 
 	let allPagesInFolder: QuartzPluginData[] = collectPages(folder)
 
-    if (options.sort) {
-		allPagesInFolder = allPagesInFolder.sort(options.sort)
-	}
+    allPagesInFolder = allPagesInFolder.sort((f1, f2) => {
+		const t1 = f1.frontmatter?.title?.toLowerCase() ?? ""
+		const t2 = f2.frontmatter?.title?.toLowerCase() ?? ""
+		return t1.localeCompare(t2)
+	})
 
     const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? []
     const classes = cssClasses.join(" ")
