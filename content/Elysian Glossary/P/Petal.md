@@ -1,7 +1,11 @@
 ---
 draft: "false"
+aliases:
+  - Drift
 ---
-The smallest classification of landmass, at most a few hundred feet across.
+The second smallest classification of landmass, spanning up to a few miles across.
+
+*Also known as a Drift*
 
 *See also the other [[Bastion]] terms:*
 - *[[Shard]],*
