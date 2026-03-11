@@ -11,9 +11,9 @@ Below is a list of the pages within this set and a short summary of what the ent
 # [[content/Playable Races in Elysium/index|Ancestries]]
 ![[content/Playable Races in Elysium/index#^overview]]
 # [[Bastions]]
-![[Bastions#^overview]]
+![[content/Voyagers' Almanac of Elysium/Bastions#^overview]]
 # [[Symbols|Symbolic Divinity]]
-![[Symbols#^overview]]
+![[content/Voyagers' Almanac of Elysium/Symbols#^overview]]
 
 ***
 Concise list of topics:
