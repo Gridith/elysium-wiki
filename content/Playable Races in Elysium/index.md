@@ -7,7 +7,6 @@ title: Playable Races in Elysium
 > In Elysium, the races all live in relative harmony. Most intelligent races see each other as equals and many live in mixed communities. Those who are prejudiced against others are a minority of either evil or misinformed individuals.
 > 
 > Nevertheless, monstrous races, such as [[hobgoblins]] or [[lycanthropes]], are often still regarded as dangerous. While some would still welcome them into their communities, they would keep their distance from them as they do so.
-^overview
 # Common Species
 This section serves as a reference for the general attributes and cultures of most playable races.
 ***
