@@ -7,13 +7,13 @@ The pages in the [[Voyagers' Almanac of Elysium/]] will go into detail on some p
 Below is a list of the pages within this set and a short summary of what the entire page is about, containing information that either most people already know or is easy to find.
 ***
 # [[content/Voyagers' Almanac of Elysium/Arcana|Arcana]]
-![[content/Voyagers' Almanac of Elysium/Arcana#^overview]]
+![[Arcana#^overview]]
 # [[content/Playable Races in Elysium/index|Ancestries]]
-![[content/Playable Races in Elysium/index#^overview]]
+![[content/Playable Races in Elysium#^overview]]
 # [[Bastions]]
-![[content/Voyagers' Almanac of Elysium/Bastions#^overview]]
+![[Bastions#^overview]]
 # [[Symbols|Symbolic Divinity]]
-![[content/Voyagers' Almanac of Elysium/Symbols#^overview]]
+![[Symbols#^overview]]
 
 ***
 Concise list of topics:
