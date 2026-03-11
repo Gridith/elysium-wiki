@@ -1,4 +1,4 @@
 ---
 draft: "false"
 ---
-An [[content/Elysian Glossary/A/Arcana|Arcana]] innate to the elven race from birth, manifesting uniquely in each individual.
+An [[Arcana (g)|Arcana (g)]] innate to the elven race from birth, manifesting uniquely in each individual.
