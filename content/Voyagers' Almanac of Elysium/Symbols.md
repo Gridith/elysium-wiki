@@ -1,10 +1,13 @@
 ---
 draft: "false"
 title: Symbolic Divinity
+aliases:
+  - symbols
 ---
 
 >[!abstract] The Nature of Divinity and Symbols
-> In Elysium, the concept of godhood differs *greatly* from the ones found in settings like the Forgotten Realms or Exandria. In those settings the gods are an immortal, active presence within their worlds. Whereas in Elysium the divine are all mortals that have ascended to unageing yet mortal Symbols through embodying their domain.
+> In Elysium, the concept of godhood differs *greatly* from the ones found in settings like the Forgotten Realms or Exandria. In those settings the gods are an immortal, active presence within their worlds. Whereas in Elysium the divine originate from mortals ascending to become a [[Symbols|symbol]] through embodying their domain.
+^overview
 # The Qualities of a Symbol
 The quality that determines one as a Symbol is their influence on history, to still be remembered centuries after their death by being greater than life figures who progress and further the ambitions of those around them. A Symbol is believed to be infallible. The decisions made by one are in fact not decisions but inevitabilities which would have happened anyway, only accelerated, packed into decades instead of centuries. 
 
