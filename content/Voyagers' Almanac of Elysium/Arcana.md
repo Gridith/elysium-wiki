@@ -1,7 +1,5 @@
 ---
 draft: "false"
-aliases:
-  - arcana
 ---
 
 >[!abstract] The Nature of Magic and the Supernatural
