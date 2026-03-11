@@ -8,8 +8,8 @@ Below is a list of the pages within this set and a short summary of what the ent
 ***
 # [[content/Voyagers' Almanac of Elysium/Arcana|Arcana]]
 ![[Arcana#^overview]]
-# [[Ancestries]]
-![[Ancestries#^overview]]
+# [[content/Playable Races in Elysium/index|Ancestries]]
+![[content/Playable Races in Elysium/index#^overview]]
 # [[Bastions]]
 ![[Bastions#^overview]]
 # [[Symbols|Symbolic Divinity]]
