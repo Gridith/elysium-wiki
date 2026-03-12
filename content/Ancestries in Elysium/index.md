@@ -15,7 +15,7 @@ This section serves as a reference for the general attributes and cultures of mo
 ## [[Draconics]] 
 Also known as dragonblood or wyrmwights, draconics are humanoids with draconic features such as full-body or partial scales, wings, or an elementally charged breath. Their scales are colored dependent on their lineage, such and the scales of the original wyrm(s). Much of draconic culture has a dedication to honour.
 ## [[Echoes]]
-People who have been changed by the powers of a [[Symbols|Symbol]] are called Echoes, such as descendants of [[Symbols|Symbol]] like the [[Symbols#Aureltyren Vorell - Symbol of Artisanry|Vorell Family]], or for instance the high priests of the [[Velohelcian Theocracy]] who have become Echoes through devotion to a [[Symbols|Symbol]].
+People who have been changed by the powers of a [[Divinity|Symbol]] are called Echoes, such as descendants of [[Divinity|Symbol]] like the [[Divinity#Aureltyren Vorell - Symbol of Artisanry|Vorell Family]], or for instance the high priests of the [[Velohelcian Theocracy]] who have become Echoes through devotion to a [[Divinity|Symbol]].
 ## [[Elves]]
 Known for having skin as pale as the [[Ivory Sea]] itself, elves are a species infused with a supernatural capability called glamours, which they are innately familiar with. Elves tend to possess sleek, slender physiques, usually reaching a height of about six feet. Relative to the other species in [[Wiki/Places/Elysium|Elysium]], elves enjoy a rather long lifespan of a 200 to 300 years.
 ## [[Faun]]
