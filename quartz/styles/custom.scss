@@ -19,12 +19,13 @@ a[data-href]:hover {
   background-color: rgba(141, 230, 252, 0.15);
 }
 
-.page-content h3 {
-  margin-left: 0.5rem;
+/* Hierarchical heading indentation */
+.article-content :is(h3, h4, h5) {
+  --indent-step: 0.5rem;
+  margin-left: calc((var(--heading-level) - 2) * var(--indent-step));
 }
-.page-content h4 {
-  margin-left: 1rem;
-}
-.page-content h5 {
-  margin-left: 1.5rem;
-}
+
+/* Define heading levels */
+.article-content h3 { --heading-level: 3; }
+.article-content h4 { --heading-level: 4; }
+.article-content h5 { --heading-level: 5; }
