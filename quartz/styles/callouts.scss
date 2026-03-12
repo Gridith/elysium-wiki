@@ -118,6 +118,12 @@
     --callout-icon: var(--callout-icon-quote);
   }
 
+  &[data-callout="click"] {
+    --color: #43b5af;
+    --border: #43b5af44;
+    --callout-icon: mouse-pointer-click;
+  }
+  
   &.is-collapsed {
     & > .callout-title > .fold-callout-icon {
       transform: rotateZ(-90deg);
