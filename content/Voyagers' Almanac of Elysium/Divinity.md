@@ -20,6 +20,6 @@ Despite being one of the oldest recorded [[Symbol]] in history, a proud lineage 
 ### Mirelthas Caldris, Symbol of Trade
 ### Tessera De Lelora, Symbol of Luck
 ### Velohelcia Tyrread, Symbol of Order
-> [!NOTE]- Click to see the Velohelcian Calendar
+> [!click]- Click to see the Velohelcian Calendar
 > ![[Velohelcian Calendar.png]]
 
