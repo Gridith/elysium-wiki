@@ -28,6 +28,6 @@ There are very few civilizations or communities in [[Elysium]] that don't use th
 
 The first and sixth seasons, [[Velohelcian Calendar|Stella Ortus]] and [[Velohelcian Calendar|Stella Occasus]], are only a single day long. These days are completely devoid of the [[Dawntide]]'s light, also known as [[Starfall]]. The other months each represent a season, with the four months around the [[Velohelcian Calendar|Stella Ortus]] as the Faint Season and the [[Velohelcian Calendar|Stella Occasus]] as the Bright Season.
 
-> [!click]- Click to see an example of the year 713 AV
+> [!click]- Click to see the full calendar
 > ![[Velohelcian Calendar.png]]
 
