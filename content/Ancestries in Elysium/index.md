@@ -22,8 +22,6 @@ Known for having skin as pale as the [[Ivory Sea]] itself, elves are a species i
 An encompassing term for species like Shifters, Tabaxi, and any other animalistic species, faun showcase an immense variety among their individuals. Some faun are fully representative of their beastly traits, like the Luxodin and Leonin; others such as shifters have very minimal traits and might sometimes even be mistaken for other races.
 
 Physically, faun are difficult to compare between ancestries, even within their own subspecies one Leonin can possess a large, bulky build while another has a sleek and dexterous one. 
-##### [[Owlin]]
-Visually owlin are as varied as their peers, with their ranges of feather colors, shapes, and patterns. Physically they are all lightweight, as to facilitate their flight.
 #### [[Radenwight]]
 A mostly lightweight rodent folk, many radenwight are of a small and nimble build.
 ## [[Goblins]]

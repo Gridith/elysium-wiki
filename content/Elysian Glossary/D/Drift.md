@@ -1,8 +1,6 @@
----
-draft: "false"
----
-The absolute largest classification of [[Bastion]], whose edges often vanish into the distance.
+The second smallest classification of landmass, spanning up to a few miles across.
 
+*Also known as a Petal*
 ***
 *See also the other [[Bastion]] terms:*
 - *[[Shard]],*

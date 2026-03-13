@@ -1,8 +1,12 @@
 ---
 draft: "false"
+aliases:
+  - Common Calendar
 ---
 The calendar established by [[Divinity#Velohelcia Tyrread, Symbol of Order|Velohelcia Tyrread]], [[Symbol]] of Order, consisting of tenday weeks and 40-day months.
 
+*Also known as the Common Calendar*
+***
 *In order, its months are:*
 1. **Stella Ortus** — *Faint day of [[Starfall]]*
 2. **Secunda** — *Faint Autumn*

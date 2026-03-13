@@ -1,8 +1,9 @@
 ---
 draft: "false"
 ---
-The absolute largest classification of [[Bastion]], whose edges often vanish into the distance.
+The biggest non-[[Bastion]] classification of landmass, measuring roughly a dozen miles across.
 
+*Also known as a Mote*
 ***
 *See also the other [[Bastion]] terms:*
 - *[[Shard]],*

@@ -3,7 +3,7 @@ title: Campaign Primer
 draft: "false"
 ---
 # Welcome to [[Elysium]], [[Voyager of Fortune|voyager]]!
-**[[Elysium]]** is a sword-and-sorcery science-fantasy world of floating islands adrift over the endless [[Ivory Sea]]. In [[Elysium]], skysails and beasts soar through clouds between the prospering industrialized cities of faction politics and nobility, frontier [[Shard|shards]] that can seem to appear overnight from the pale itself, and ancient ruins coveting lost [[content/Elysian Glossary/A/Arcana (g)|Arcana]], glittering hoards, and lethal consequences.
+**[[Elysium]]** is a sword-and-sorcery science-fantasy world of floating islands adrift over the endless [[Ivory Sea]]. In [[Elysium]], skysails and beasts soar through clouds between the prospering industrialized cities of faction politics and nobility, frontier [[Shard|shards]] that can seem to appear overnight from the pale itself, and ancient ruins coveting lost [[Elysian Glossary/A/Arcana (g)|Arcana]], glittering hoards, and lethal consequences.
 > [!question] Why a site?
 > Because [[Elysium]] is an entirely homebrewed setting it can be easy to make an incorrect assumption about the setting, after all, how would you even be able to know better if I haven't explicitly told you? That is why I'm putting together this site as a touchstone of player facing information for easy access!
 > 
