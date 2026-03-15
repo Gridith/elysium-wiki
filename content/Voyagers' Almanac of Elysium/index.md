@@ -2,9 +2,7 @@
 draft: "false"
 title: Voyagers' Almanac of Elysium
 ---
-The pages in the [[Voyagers' Almanac of Elysium/]] will go into detail on some peculiarities only found in Elysium, such as its [[Divinity|gods]], [[Arcana|magic]], or [[Bastions|drifting islands]].
-
-Below is a list of the pages within this set and a short summary of what the entire page is about, containing information that either most people already know or is easy to find.
+The pages in the [[Voyagers' Almanac of Elysium/]] will go into detail on some peculiarities only found in Elysium, such as its gods, magic, or drifting islands. Below is a list of the pages within this set and a short summary of what the entire page is about, containing information that either most people already know or is easy to find.
 ***
 # [[Voyagers' Almanac of Elysium/Arcana|Arcana]]
 >[!abstract] The Nature of Magic and the Supernatural
