@@ -7,4 +7,4 @@ draft: "false"
 >
 >Some common examples of major [[Voyagers' Almanac of Elysium/Arcana|arcana]] include the scholastic study of thaumaturgists and wizards, the light conducted through faith in the ordained and [[Divinity|Symbols]], or the deep-rooted beliefs and traditions upheld by generations of commonfolk. 
 
-# 
+# Superstition
