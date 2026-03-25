@@ -9,7 +9,7 @@ draft: "false"
 # Ancestral Arcana
 Many of the species roaming [[Elysium]] possess some form of innate arcana. The nature of its expression varies between species and in some cases, such as an [[Elf|elven]] [[Glamour|Glamour]], it can even significantly vary person to person.
 
- **Polder Shadows**
+ **Polder Shadows**  
 While few Polders will agree on the name for their Arcana, they can all agree on its effect. Every Polder shares the same ability to cast themselves onto a surface like a shadow.
 #### Elven Glamour
 #### Human Sensitivity
